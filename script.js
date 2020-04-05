@@ -1,9 +1,8 @@
 /*
     Author: Katarina Capalbo
-    N#: N01399315
     Date: 2/10/2020
     Assignment: Internet Programming Project 3
-    Assignment Description: Create a Statistical Calculator web page using the filename index.html in the project3 folder
+    Assignment Description: Create a Statistical Calculator web page 
 */
 
 function calcMean(array){
@@ -161,16 +160,7 @@ if(errFlag1 == false && errFlag2 == false){
     document.getElementById("min").value = findMin(array);
     document.getElementById("max").value = findMax(array);
     document.getElementById("mean").value = calcMean(array);
-    document.getElementById("median").value = calcMedian(array);
-
-    /*
-    var modeArray = [];
-    modeArray = calcMode(array).slice();
-    for(var i = 0; i < modeArray.length; i++){
-        document.getElementById("mode").value += modeArray[i] + " ";
-    }
-    */
-
+    document.getElementById("median").value = calcMedian(array)
     document.getElementById("mode").value = calcMode(array);
     document.getElementById("stddev").value = calcStdDev(array);
     document.getElementById("variance").value = calcVariance(array);
