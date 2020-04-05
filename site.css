@@ -1,0 +1,40 @@
+.project3{
+    font-family: Trebuchet MS;
+    text-align: center;
+    background-image: url("images/gird.jpg")
+}
+
+.formDiv{
+    box-shadow:inset 0px 1px 0px 0px #efdcfb;
+    border-radius: 25px;
+    box-shadow: 5px 10p#808080;
+    margin: 0 auto;
+    width: 550px;
+    height: 500px;
+    background-color:#c584f3;
+    color: white;
+
+}
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background-color:#c584f3;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+
+	color: white;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.button:hover {
+	background-color:#bc80ea;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

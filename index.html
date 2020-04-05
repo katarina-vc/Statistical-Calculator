@@ -1,0 +1,56 @@
+<!--
+    Author: Katarina Capalbo
+    N#: N01399315
+    Date:   2/10/2020
+    Assignment: Internet Programming Project 3
+    Assignment Description: Create a Statistical Calculator web page using the filename index.html in the project3 folder
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistical Calculator</title>
+     <!--Switch to this for bitvise: <link rel="stylesheet" type="text/css" href="../css/site.css">-->
+     <link rel="stylesheet" type="text/css" href="site.css">
+</head>
+    <body class="project3" background="gird.jpg">
+        <h2 style="text-shadow: 2px 2px #808080; color:white;">Statistical Calculator</h2>
+
+        <div class="formDiv">
+        <form id = "form" onsubmit="return performStatistics();">
+            <div class="divTextArea">
+            
+            <br>Enter 5 to 20 numbers (ranging in value from 0 to 100).
+            Exactly one (1) space must seperate each number.<br><br>
+
+            <!--This textarea control is the only control that will accept user input-->
+            <textarea id="nums" rows="3" cols="50" required></textarea><br>
+            </div>
+
+            <div class="divButtons">
+            <!--Submit and Reset button-->
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br>
+            </div><br>
+
+            <div class="divTextFields">
+            <!--Output text fields-->
+            Min:<input type="text" id="min" name="min" readonly><br><br>
+            Max:<input type="text" id="max" name="max" readonly><br><br>
+            Sum:<input type="text" id="sum" name="sum" readonly><br><br>
+            Mean:<input type="text" id="mean" name="mean" readonly><br><br>
+            Median:<input type="text" id="median" name="median" readonly><br><br>
+            Mode:<input type="text" id="mode" name="mode" readonly><br><br>
+            Variance:<input type="text" id="variance" name="variance" readonly><br><br>
+            Std Dev:<input type="text" id="stddev" name="stddev" readonly><br><br>
+            </div>
+        </form>
+        </div>
+
+    
+        <!--Link to ePortfolio-->
+        <br><a href="../index.html" class="button">My ePortfolio</a><br>
+        <!--Link to javascript file-->
+        <script src="script.js"></script>
+    </body>
+
+</html>
